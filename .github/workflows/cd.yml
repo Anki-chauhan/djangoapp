@@ -18,8 +18,8 @@ jobs:
           script: |
             cd ${{ secrets.SERVER_PATH }}
             git pull origin main
-            source venv/bin/activate
-            pip install -r requirements.txt
-            python manage.py migrate --noinput
-            python manage.py collectstatic --noinput
+            source venv/bin/activate      
             sudo systemctl restart gunicorn
+# pip install -r requirements.txt
+# python manage.py migrate --noinput
+# python manage.py collectstatic --noinput
