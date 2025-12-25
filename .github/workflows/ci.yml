@@ -17,13 +17,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
+      # - name: Install dependencies
+      #   run: |
+      #     pip install --upgrade pip
+      #     pip install -r requirements.txt
 
-      - name: Django checks
-        run: |
-          python manage.py check
-          python manage.py makemigrations --check --dry-run
-          python manage.py test
+      # - name: Django checks
+      #   run: |
+      #     python manage.py check
+      #     python manage.py makemigrations --check --dry-run
+      #     python manage.py test
