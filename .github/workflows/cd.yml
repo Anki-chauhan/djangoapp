@@ -14,9 +14,9 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.SSH-KEY }}
+          key: ${{ secrets.SSH_KEY }}
           script: |
-            cd ${{ secrets.SERVER-PATH }}
+            cd ${{ secrets.SERVER_PATH }}
             git pull origin main
             source venv/bin/activate
             pip install -r requirements.txt
