@@ -19,7 +19,7 @@ jobs:
             cd ${{ secrets.SERVER_PATH }}
             git pull origin main
             source ../venv/bin/activate    
-            sudo systemctl restart gunicorn
+            sudo supervisorctl restart mnf_gunicorn_taj1
 # pip install -r requirements.txt
 # python manage.py migrate --noinput
 # python manage.py collectstatic --noinput
