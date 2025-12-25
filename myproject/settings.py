@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-82uewk96k3&v3uw421)-gc+)w&@!7np9ydr(n1yvhvv0brbtp*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['taj1.mynextfilm.in']
 
 
 # Application definition
