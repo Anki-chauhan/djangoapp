@@ -14,7 +14,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-#add cicd pipeline working now proper and fine
+#add cicd pipeline working now proper and fine and ok
  
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-82uewk96k3&v3uw421)-gc+)w&@!7np9ydr(n1yvhvv0brbtp*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['taj1.mynextfilm.in']
+ALLOWED_HOSTS = ['taj1.mynextfilm.in','localhost','127.0.0.1']
 
 
 # Application definition
